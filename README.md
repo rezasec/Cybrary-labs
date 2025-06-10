@@ -1,7 +1,7 @@
 # Linux CLI Lab – Guided Practice
 
-This repo contains my hands-on practice using the Linux command line (CLI).  
-I followed a guided lab that covered core BASH commands and terminal operations.
+This repo contains my hands on practice using the Linux command line (CLI).  
+I followed a lab that covered core BASH commands and terminal operations.
 
 ## 🔧 What I Practiced
 
