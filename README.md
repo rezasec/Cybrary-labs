@@ -13,8 +13,8 @@ I followed a guided lab that covered core BASH commands and terminal operations.
 
 ## 📁 Files Included
 
-- `notes.md` — Personal notes written in my own words
-- `linux cli certificate.pdf` — Proof of course completion from Cybrary
+- `notes.md` - Personal notes written in my own words
+- `linux cli certificate.pdf` - Proof of course completion from Cybrary
 
 ## 🧾 Certificate of Completion
 
