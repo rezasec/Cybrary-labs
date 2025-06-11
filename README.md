@@ -15,7 +15,8 @@ I followed a lab that covered core BASH commands and terminal operations.
 
 - `notes.md` - Personal notes 
 - `linux cli certificate.pdf` - Proof of course completion from Cybrary
-- `linux-file-system-notes.md` – Notes from Linux File System Basics lab
+- `linux file system notes.md` – Notes from Linux File System Basics lab
+- `Linux File System Basics` - Proof of course completion from Cybrary
 
 ## 🧾 Certificate of Completion
 
