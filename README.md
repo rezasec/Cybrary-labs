@@ -24,3 +24,10 @@ Successfully completed **Cybrary's Linux CLI Basics** course
 - 🏫 **Provider**: Cybrary  
 
 ➡️ [Click here to view the certificate (PDF)](./linux%20cli%20certificate.pdf)
+
+Successfully completed **Cybrary's Linux File System Basics** course  
+📄 **Certificate ID**: * CC-b6e3f45f-176a-4acc-9fe8-4c3636aaffc5*  
+📅 **Date Issued**: June 11, 2025  
+🏢 **Provider**: Cybrary  
+
+➡️ [Click here to view the certificate (PDF)](./linux%20file%20system%20basics.pdf)
