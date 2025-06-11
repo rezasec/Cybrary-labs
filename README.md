@@ -1,7 +1,7 @@
 # 🐧 Linux Lab Practice
 
-This repo contains my hands-on practice using the Linux command line (CLI) and the Linux file system.  
-I followed a series of guided labs that covered core BASH commands, terminal operations, and system directory structure.
+This repo contains my hands on practice using the Linux command line (CLI) and the Linux file system.  
+I followed a series of labs that covered core BASH commands, terminal operations, and system directory structure.
 
 ---
 
