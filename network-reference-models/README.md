@@ -1,2 +1,65 @@
-# Network Reference Models
-Placeholder — adding content soon.
+# 🧠 Network Reference Models (Wireshark Lab)
+
+![Badge](https://img.shields.io/badge/Status-Completed-brightgreen)  
+📅 **Completed on:** June 11, 2025  
+🎓 **Platform:** Cybrary  
+📜 **Certificate:** 1 CEU/CPE hour
+
+---
+
+## 🌐 Summary
+
+This lab explored how data is transmitted across networks using the **OSI** and **TCP/IP** models. I used **Wireshark** to inspect real captured packets and trace how each layer of data is encapsulated and decapsulated in practice.
+
+---
+
+## 🔍 Key Concepts Learned
+
+✅ Structure and purpose of the OSI (7-layer) and TCP/IP (4-layer) models  
+✅ How encapsulation adds headers/trailers at each layer  
+✅ How Wireshark displays each protocol layer from Physical to Application  
+✅ How to analyze key protocols and data fields in a real packet capture
+
+---
+
+## 📦 Protocols & Layers Analyzed
+
+| OSI Layer | Example Protocols | What I Saw in Wireshark |
+|-----------|--------------------|--------------------------|
+| 7 - Application | HTTP | Request/Response content, flag `{CLAB-Practicum}` |
+| 4 - Transport | TCP | Source/destination ports, sequence numbers |
+| 3 - Network | IPv4 | Source/destination IPs |
+| 2 - Data Link | IEEE 802.11 | MAC addresses, Beacon frames |
+| 1 - Physical | Radiotap | Channel, frequency, signal strength |
+
+---
+
+## 🧪 Lab Outcome
+
+- Used **display filters** (`tcp`) to isolate meaningful packets  
+- Traced a full **HTTP request and response** across all layers  
+- Located the flag `{CLAB-Practicum}` inside an HTTP response  
+- Learned to differentiate between broadcast beacons (Layer 1-2 only) and actual traffic (Layer 3-7)
+
+---
+
+## 🏅 Certificate
+
+📄 [View Certificate (PDF)](./certificate.pdf)  
+*Issued by Cybrary on June 11, 2025*
+
+---
+
+## 📁 Files Included
+
+- `README.md` — this lab summary  
+- `certificate.pdf` — proof of completion  
+- *(optional)* `flag-screenshot.png` — if uploaded
+
+---
+
+## 🚀 Next Steps
+
+- Continue building my Cybrary learning path  
+- Add labs on Networking Fundamentals, SIEM, and Security+
+
