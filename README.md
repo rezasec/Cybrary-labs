@@ -40,4 +40,5 @@ Successfully completed **Cybrary's Linux File System Basics** course
 📅 **Date Issued**: June 11, 2025  
 🏢 **Provider**: Cybrary  
 
-➡️ [Click here to view the certificate (PDF)](./linux%20file%20system%20basics%20certificate.pdf)
+➡️ [Click here to view the certificate (PDF)](./file-system-basics/Linux%20file%20system%20certificate)
+
