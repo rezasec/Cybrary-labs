@@ -13,10 +13,10 @@ I followed a lab that covered core BASH commands and terminal operations.
 
 ## 📁 Files Included
 
-- `notes.md` - Personal notes 
+- `Linux cli Basics notes.md` - Notes from Linux CLI Basics lab
 - `linux cli certificate.pdf` - Proof of course completion from Cybrary
 - `linux file system notes.md` – Notes from Linux File System Basics lab
-- `Linux File System Basics` - Proof of course completion from Cybrary
+- `Linux file System Basics` - Proof of course completion from Cybrary
 
 ## 🧾 Certificate of Completion
 
@@ -27,7 +27,8 @@ Successfully completed **Cybrary's Linux CLI Basics** course
 
 ➡️ [Click here to view the certificate (PDF)](./linux%20cli%20certificate.pdf)
 
-Successfully completed **Cybrary's Linux File System Basics** course  
+Successfully completed **Cybrary's Linux File System Basics** course 
+ 
 📄 **Certificate ID**: * CC-b6e3f45f-176a-4acc-9fe8-4c3636aaffc5*  
 📅 **Date Issued**: June 11, 2025  
 🏢 **Provider**: Cybrary  
