@@ -1,57 +1,46 @@
-📚 Lab Notes: Linux File System Basics
-Completed a hands on lab focused on understanding the Linux file system structure, storage management, and log monitoring. This session helped clarify how Linux organizes files, devices, and critical system paths.
+📁 Lab Notes: Linux File System Basics
+💡 Lab Overview
+Completed a guided hands-on Linux lab focused on exploring the Linux file system using command-line tools. Practiced navigation, understood key directories, and examined devices, logs, and processes.
 
-✅ Key Concepts and Commands Practiced
-🔍 Exploring the File System
-Navigated to the root directory using cd /
+🔍 Exploring the Linux File System
+Navigated to the root directory with: cd /
 
-Used ls -l to display directory contents and symbolic links
-
-Learned:
+Listed contents using: ls -l
 
 d = directory (e.g., /home, /etc)
 
-l = symbolic link (shortcut)
+l = symbolic link
 
-rwx = read, write, execute permissions
+rwx = permissions (read, write, execute)
 
 🌲 Tree Structure Navigation
-tree / -L 1: Viewed the root directory one level deep
+Viewed root tree structure: tree / -L 1
 
-tree /home: Listed all home user folders
+Explored home directories: tree /home
 
-sudo adduser michael: Created a new user and verified the home directory was auto-created
+Created new user with home directory: sudo adduser michael
 
-📁 Key Linux Directories and Their Roles
-/etc: Stores system config files (e.g., hosts, fstab, crontab)
+📁 Key Directories and Their Purpose
+Directory	Description
+/etc	System configuration files (hosts, fstab, crontab)
+/var/log	System logs (syslog, auth.log, dmesg, etc.)
+/usr	Shared user tools, binaries, libraries, docs
+/opt	Third-party applications (e.g., Oracle)
+/dev	Device files (e.g., /dev/null, /dev/xvda)
+/mnt	Mount point for external drives (USB, CD, NFS)
+/root	Home directory for the root user
+/proc	Virtual file system with running processes
+/boot	Boot files (e.g., kernels, initrd)
 
-/var/log: System logs like syslog, auth.log, dmesg
+🔧 Storage & Devices
+Listed disk partitions: sudo fdisk -l | grep dev | grep -v loop
 
-/usr: Shared user tools, binaries, docs, libraries
+Checked mounted partitions: sudo df -h
 
-/opt: Reserved for third-party applications
+Listed block devices: lsblk
 
-/dev: Device files (e.g., /dev/null, /dev/xvda)
+📝 Logs & Monitoring
+Viewed kernel messages: sudo last, sudo who
 
-/mnt: Mount point for external devices (USB, CD, NFS)
-
-/root: Home directory for the root user
-
-/proc: Temporary virtual filesystem showing running processes
-
-/boot: Stores boot files used during startup
-
-💽 Disk & Storage Management
-sudo fdisk -l | grep dev | grep -v loop: Listed physical storage devices
-
-sudo df -h: Checked disk usage in human-readable format
-
-lsblk: Listed block devices and mount points
-
-🛠️ Log Monitoring & System Tools
-sudo tail -f /var/log/syslog: Monitored live system logs
-
-sudo last: Viewed login history
-
-sudo who: Checked currently logged-in users
+Monitored system logs live: sudo tail -f /var/log/syslog
 
