@@ -1,54 +1,57 @@
-This is a summary of the key concepts and commands I practiced during the Linux File System Basics guided lab on Cybrary.
+📚 Lab Notes: Linux File System Basics
+Completed a hands on lab focused on understanding the Linux file system structure, storage management, and log monitoring. This session helped clarify how Linux organizes files, devices, and critical system paths.
 
-🔍 Exploring the Linux File System
-Used cd / to navigate to the root of the file system.
+✅ Key Concepts and Commands Practiced
+🔍 Exploring the File System
+Navigated to the root directory using cd /
 
-Ran ls -l to display directories and symbolic links under root.
+Used ls -l to display directory contents and symbolic links
 
-Learned that:
+Learned:
 
-d means it's a directory (e.g., /home, /etc).
+d = directory (e.g., /home, /etc)
 
-l means it's a symbolic link (shortcut).
+l = symbolic link (shortcut)
 
-rwx characters represent read, write, and execute permissions.
+rwx = read, write, execute permissions
 
 🌲 Tree Structure Navigation
-tree / -L 1: Viewed the root directory one level deep.
+tree / -L 1: Viewed the root directory one level deep
 
-tree /home: Showed all home directories.
+tree /home: Listed all home user folders
 
-sudo adduser michael: Created a new user, saw it got a new home folder.
+sudo adduser michael: Created a new user and verified the home directory was auto-created
 
-📁 Key Directories and Their Roles
-/etc: Stores system configuration files (e.g., hosts, fstab, crontab).
+📁 Key Linux Directories and Their Roles
+/etc: Stores system config files (e.g., hosts, fstab, crontab)
 
-/var/log: Holds system logs (syslog, auth.log, dmesg, etc).
+/var/log: System logs like syslog, auth.log, dmesg
 
-/usr: Stores shared user tools, binaries, libraries, and documentation.
+/usr: Shared user tools, binaries, docs, libraries
 
-/opt: Reserved for third-party software.
+/opt: Reserved for third-party applications
 
-/dev: Represents devices as files (e.g., /dev/null, /dev/xvda).
+/dev: Device files (e.g., /dev/null, /dev/xvda)
 
-/mnt: Used for mounting external devices (CD, USB, NFS).
+/mnt: Mount point for external devices (USB, CD, NFS)
 
-/root: Home directory for the root user.
+/root: Home directory for the root user
 
-/proc: Temporary virtual filesystem showing running processes.
+/proc: Temporary virtual filesystem showing running processes
 
-/boot: Contains files needed for system boot.
+/boot: Stores boot files used during startup
 
-📊 Disk & Storage Management
-sudo fdisk -l | grep dev | grep -v loop: Lists physical drives.
+💽 Disk & Storage Management
+sudo fdisk -l | grep dev | grep -v loop: Listed physical storage devices
 
-sudo df -h: Shows partition usage in human-readable form.
+sudo df -h: Checked disk usage in human-readable format
 
-lsblk: Lists block devices with sizes and mount points.
+lsblk: Listed block devices and mount points
 
-🛠️ Helpful Log and Monitoring Commands
-sudo tail -f /var/log/syslog: Monitors real-time system logs.
+🛠️ Log Monitoring & System Tools
+sudo tail -f /var/log/syslog: Monitored live system logs
 
-sudo last: Reads login history from the lastlog file.
+sudo last: Viewed login history
 
-sudo who: Shows currently logged-in users.
+sudo who: Checked currently logged-in users
+
