@@ -16,6 +16,6 @@ This repository documents my hands on progress through Cybrary's cybersecurity a
 
 ## 🕒 Total Lab Hours Logged
 
-**3 hours** of CEU/CPE-accredited hands-on labs completed.
+**3 hours** of CEU/CPE accredited hands on labs completed.
 
 > This portfolio will grow as I complete more Cybrary labs in networking, SOC analysis, and security fundamentals.
