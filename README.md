@@ -1,15 +1,22 @@
-# Linux Lab Practice
+# 🐧 Linux Lab Practice
 
-This repo contains my hands on practice using the Linux command line (CLI) and the Linux file system.  
-I followed a lab that covered core BASH commands and terminal operations.
+This repo contains my hands-on practice using the Linux command line (CLI) and the Linux file system.  
+I followed a series of guided labs that covered core BASH commands, terminal operations, and system directory structure.
 
-## 🔧 What I Practiced
+---
+
+## 🛠️ What I Practiced
 
 - Navigating file systems with `cd`, `pwd`, `ls`
 - Creating, editing, copying, moving, and deleting files
 - Viewing file contents with `cat`, `more`, and `less`
 - Searching with `grep` and `find`
+- Understanding file permissions (`ls -l`, `drwxr-xr-x`)
+- Exploring system directories like `/etc`, `/var/log`, `/usr`, and `/proc`
+- Creating users and inspecting their home directories
 - Sorting, filtering, and counting with pipes (`|`), `sort`, `uniq`, and `wc`
+- Monitoring live logs with `tail -f` and inspecting disk usage with `df`, `lsblk`, `fdisk`
+
 
 ## 📁 Files Included
 
