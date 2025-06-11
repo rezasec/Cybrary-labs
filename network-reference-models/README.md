@@ -49,17 +49,3 @@ This lab explored how data is transmitted across networks using the **OSI** and 
 *Issued by Cybrary on June 11, 2025*
 
 ---
-
-## 📁 Files Included
-
-- `README.md` — this lab summary  
-- `certificate.pdf` — proof of completion  
-- *(optional)* `flag-screenshot.png` — if uploaded
-
----
-
-## 🚀 Next Steps
-
-- Continue building my Cybrary learning path  
-- Add labs on Networking Fundamentals, SIEM, and Security+
-
