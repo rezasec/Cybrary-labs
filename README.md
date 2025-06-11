@@ -1,6 +1,6 @@
 # Linux Lab Practice
 
-This repo contains my hands on practice using the Linux command line (CLI).  
+This repo contains my hands on practice using the Linux command line (CLI) and the Linux file system.  
 I followed a lab that covered core BASH commands and terminal operations.
 
 ## 🔧 What I Practiced
