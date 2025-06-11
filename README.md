@@ -1,24 +1,21 @@
-# 🐧 Linux Lab Practice
+# 🚀 Cybrary Labs Portfolio
 
-This repository documents hands on Linux labs I’ve completed through Cybrary, focused on the Linux command line (CLI) and file system fundamentals.  
-
-Each lab includes my personal notes and a certificate of completion.
+This repository documents my hands on progress through Cybrary's cybersecurity and IT learning paths. Each folder contains a completed lab with a summary, key takeaways, and a certificate of completion.
 
 ---
 
-## 🧪 Labs
+## 📚 Labs Completed
 
-### 🔹 CLI Basics  
-
-- 📄 [Linux CLI Notes](cli-basics/cli%20notes.md) - Notes and commands practiced  
-- 📄 [Linux CLI Certificate (PDF)](cli-basics/linux-cli-certificate.pdf) - Proof of completion
-
-
-### 🔹 Linux File System Basics
-
-- 📄 [File System Notes](file-system-basics/file%20system%20notes.md) - Summary of key concepts and structure  
-- 📄 [File System Certificate (PDF)](file-system-basics/Linux%20file%20system%20certificate.pdf) - Proof of completion
+| Lab | Description | Certificate |
+|-----|-------------|-------------|
+| [Linux CLI Basics](./linux-cli-basics) | Terminal navigation, commands, permissions | ✅ |
+| [Linux File System Basics](./linux-file-system-basics) | File system layout, logs, partitions | ✅ |
+| [Network Reference Models](./network-reference-models) | OSI/TCP/IP models, Wireshark packet analysis | ✅ |
 
 ---
 
-📌 *More labs coming soon!*
+## 🕒 Total Lab Hours Logged
+
+**3 hours** of CEU/CPE-accredited hands-on labs completed.
+
+> This portfolio will grow as I complete more Cybrary labs in networking, SOC analysis, and security fundamentals.
