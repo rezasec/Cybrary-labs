@@ -9,8 +9,8 @@ Each lab includes my personal notes and a certificate of completion.
 ## 🧪 Labs
 
 ### 🔹 [CLI Basics](./cli-basics/)
-- `notes.md` — Hands-on notes and commands practiced
-- `linux-cli-certificate.pdf` — Proof of completion
+[Linux CLI Notes](./cli-basics/notes.md) — Hands-on notes and commands practiced  
+[Linux CLI Certificate (PDF)](./cli-basics/linux-cli-certificate.pdf) — Proof of completion
 
 ### 🔹 [Linux File System Basics](./file-system-basics/)
 - `notes.md` — Summary of key concepts and directory structure
