@@ -1,27 +1,34 @@
-🧪 Lab Notes: Linux CLI Basics
-Completed a hands on guided lab covering fundamental Linux command-line operations. This was my first real practice session working directly in the terminal, and it helped solidify key concepts.
+# ✅ Key Concepts and Commands Practiced: Linux CLI Basics Lab
 
-✅ Key Commands and Concepts Practiced:
-Identified user and system info with: whoami, hostname, pwd, and id
+🧭 **Basic Navigation & Identification**
+- Identified user and system info using: `whoami`, `hostname`, `pwd`, `id`
+- Navigated the file system using: `cd`, `cd ..`, `pwd`, `ls`
 
-Navigated directories with: cd, cd .., pwd, ls
+📄 **Understanding Files and Permissions**
+- Used `ls -l` to view file permissions like `drwxr-xr-x`
+- Understood file permission groups: owner, group, others
+- Recognized the difference between files and directories using symbols (`-`, `d`)
 
-Understood output of ls -l, including file permissions like drwxr-xr-x
+📁 **Creating and Modifying Files**
+- Created folders using `mkdir`
+- Created empty files using `touch`
+- Appended content using `echo "text" >> file.txt`
+- Displayed file contents using `cat`
 
-Created directories with mkdir and files with touch
+🔁 **File Management**
+- Copied files using `cp`
+- Moved and renamed files using `mv`
+- Removed files safely with `rm -i`
 
-Appended text using echo and viewed content with cat
+📚 **Working with Large Files**
+- Viewed long content using `more` and `less`
+- Used `base64 /dev/urandom | head -c 1M > abigfile.txt` to generate a large random file
 
-Copied and moved files using cp and mv
+🔍 **Searching and Parsing**
+- Searched for files by name with `find`
+- Found text inside files using `grep`
+- Combined commands using `|` (pipes) for parsing:
+  - `sort`, `uniq`, and `wc` for filtering and counting
 
-Removed files safely using rm -i
-
-Used more and less to view large files interactively
-
-Created large test files with: base64 /dev/urandom | head -c 1M > abigfile.txt
-
-Searched for files with find and content inside files with grep
-
-Combined commands using pipes | with sort, uniq, and wc for text parsing
-
-This experience gave me a practical foundation in using the terminal efficiently and built my confidence with Linux file operations.
+💡 **Reflection**
+> This was my first real hands-on Linux CLI lab. It helped solidify my understanding of the terminal and file system management. I now feel much more confident navigating and handling files using command-line tools.
