@@ -1,0 +1,54 @@
+This is a summary of the key concepts and commands I practiced during the Linux File System Basics guided lab on Cybrary.
+
+🔍 Exploring the Linux File System
+Used cd / to navigate to the root of the file system.
+
+Ran ls -l to display directories and symbolic links under root.
+
+Learned that:
+
+d means it's a directory (e.g., /home, /etc).
+
+l means it's a symbolic link (shortcut).
+
+rwx characters represent read, write, and execute permissions.
+
+🌲 Tree Structure Navigation
+tree / -L 1: Viewed the root directory one level deep.
+
+tree /home: Showed all home directories.
+
+sudo adduser michael: Created a new user, saw it got a new home folder.
+
+📁 Key Directories and Their Roles
+/etc: Stores system configuration files (e.g., hosts, fstab, crontab).
+
+/var/log: Holds system logs (syslog, auth.log, dmesg, etc).
+
+/usr: Stores shared user tools, binaries, libraries, and documentation.
+
+/opt: Reserved for third-party software.
+
+/dev: Represents devices as files (e.g., /dev/null, /dev/xvda).
+
+/mnt: Used for mounting external devices (CD, USB, NFS).
+
+/root: Home directory for the root user.
+
+/proc: Temporary virtual filesystem showing running processes.
+
+/boot: Contains files needed for system boot.
+
+📊 Disk & Storage Management
+sudo fdisk -l | grep dev | grep -v loop: Lists physical drives.
+
+sudo df -h: Shows partition usage in human-readable form.
+
+lsblk: Lists block devices with sizes and mount points.
+
+🛠️ Helpful Log and Monitoring Commands
+sudo tail -f /var/log/syslog: Monitors real-time system logs.
+
+sudo last: Reads login history from the lastlog file.
+
+sudo who: Shows currently logged-in users.
