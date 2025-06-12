@@ -33,11 +33,3 @@ This Readme documents my work on the **IP Addressing Basics** lab completed on C
 | Captured ARP traffic      | Wireshark              | Saw how MAC/IP resolution works behind the scenes |
 
 ---
-
-## 🏆 Certificate
-
-![Certificate Screenshot](./certificate.pdf)
-
-Issued by **Cybrary**, confirming 2 hours of completed lab training.
-
----
