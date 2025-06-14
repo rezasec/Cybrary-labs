@@ -1,10 +1,10 @@
-# 📡 IP Addressing Basics (Cybrary Lab)
+# IP Addressing Basics (Cybrary Lab)
 
 This Readme documents my work on the **IP Addressing Basics** lab completed on Cybrary using GNS3. 
 
 ---
 
-## 🧠 What I Learned
+##  What I Learned
 
 - How the **TCP/IP model** works and how it compares to OSI
 - Basics of **IP addressing**, including IPv4 structure and subnet masks
@@ -14,7 +14,7 @@ This Readme documents my work on the **IP Addressing Basics** lab completed on C
 
 ---
 
-## 🖥️ Lab Tools
+## 🖥 Lab Tools
 
 - **GNS3**: Used to simulate a full network topology with routers, switches, and Linux hosts
 - **Linux CLI**: Ran commands to view and troubleshoot configurations
@@ -22,7 +22,7 @@ This Readme documents my work on the **IP Addressing Basics** lab completed on C
 
 ---
 
-## 🧪 Key Lab Activities
+##  Key Lab Activities
 
 | Task                      | Tools Used             | Key Takeaway |
 |---------------------------|------------------------|--------------|
