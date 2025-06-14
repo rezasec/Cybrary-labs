@@ -1,5 +1,9 @@
 #  Key Concepts and Commands Practiced: Linux CLI Basics Lab
 
+This lab focused on essential Linux command line operations
+
+---
+
  **Basic Navigation & Identification**
 - Identified user and system info using: `whoami`, `hostname`, `pwd`, `id`
 - Navigated the file system using: `cd`, `cd ..`, `pwd`, `ls`
