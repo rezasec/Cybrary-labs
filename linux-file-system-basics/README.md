@@ -5,11 +5,11 @@ Completed a hands on guided lab focused on understanding the Linux file system s
 ---
 
 
-### ✅ Key Concepts and Commands Practiced
+###  Key Concepts and Commands Practiced
 
 ---
 
-### 🔍 Exploring the File System
+###  Exploring the File System
 - Navigated to the root directory using `cd /`
 - Used `ls -l` to display directory contents and symbolic links
 - Learned:
@@ -19,14 +19,14 @@ Completed a hands on guided lab focused on understanding the Linux file system s
 
 ---
 
-### 🌲 Tree Structure Navigation
+###  Tree Structure Navigation
 - `tree / -L 1`: Viewed the root directory one level deep
 - `tree /home`: Listed all home user folders
 - `sudo adduser michael`: Created a new user and verified the home directory was auto-created
 
 ---
 
-### 📁 Key Linux Directories and Their Roles
+###  Key Linux Directories and Their Roles
 - `/etc`: System config files like `hosts`, `fstab`, `crontab`
 - `/var/log`: System logs (e.g., `syslog`, `auth.log`, `dmesg`)
 - `/usr`: Shared user tools, binaries, docs, libraries
@@ -39,18 +39,16 @@ Completed a hands on guided lab focused on understanding the Linux file system s
 
 ---
 
-### 💽 Disk & Storage Management
+###  Disk & Storage Management
 - `sudo fdisk -l | grep dev | grep -v loop`: List physical drives
 - `sudo df -h`: View partitions and usage in human-readable format
 - `lsblk`: List block devices and mount points
 
 ---
 
-### 🛠️ Log Monitoring & System Utilities
+###  Log Monitoring & System Utilities
 - `sudo tail -f /var/log/syslog`: Monitor real-time system logs
 - `sudo last`: View login history
 - `sudo who`: Show current logged-in users
 
 ---
-
-💬 _This lab gave me a much clearer understanding of how Linux organizes data and devices, and how to monitor and explore system behavior through logs and commands._  
