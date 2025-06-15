@@ -15,3 +15,4 @@ This lab demonstrates how public key cryptography works using OpenSSL in a Linux
 - Used base64 encoding to send message via mail
 - Switched to Sally user, decoded, and decrypted message using `sallyprivate.key`
 
+ 
