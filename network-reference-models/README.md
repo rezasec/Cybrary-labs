@@ -1,6 +1,6 @@
 ##  Summary
 
-This lab explored how data is transmitted across networks using the **OSI** and **TCP/IP** models. I used **Wireshark** to inspect real captured packets and trace how each layer of data is encapsulated and decapsulated in practice.
+This lab explored how data is transmitted across networks using the OSI and TCP/IP models. I used Wireshark to inspect real captured packets and trace how each layer of data is encapsulated and decapsulated in practice.
 
 ---
 
