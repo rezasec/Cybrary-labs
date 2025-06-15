@@ -1,4 +1,4 @@
-# IP Addressing Basics (Cybrary Lab)
+# IP Addressing Basics
 
 This Readme documents my work on the **IP Addressing Basics** lab completed on Cybrary using GNS3. 
 
