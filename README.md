@@ -4,7 +4,7 @@ This repository documents my hands on progress through Cybrary's cybersecurity a
 
 ---
 
-## 📚 Labs Completed
+## Labs Completed
 
 | Lab | Description | Skills Practiced | Certificate |
 |-----|-------------|------------------|-------------|
@@ -17,7 +17,7 @@ This repository documents my hands on progress through Cybrary's cybersecurity a
 
 ---
 
-## 🕒 Total Lab Hours Logged
+##  Total Lab Hours Logged
 
 **7 hours** of CEU/CPE accredited hands on labs completed.
 
