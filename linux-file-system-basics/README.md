@@ -1,4 +1,4 @@
-# 📚 Lab Notes: Linux File System Basics
+#  Lab Notes
 
 Completed a hands on guided lab focused on understanding the Linux file system structure, storage management, and log monitoring. This session helped clarify how Linux organizes files, devices, and critical system paths.
 
