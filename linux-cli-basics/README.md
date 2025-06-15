@@ -1,4 +1,4 @@
-#  Key Concepts and Commands Practiced: Linux CLI Basics Lab
+#  Key Concepts and Commands Practiced
 
 This lab focused on essential Linux command line operations
 
