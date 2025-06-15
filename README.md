@@ -14,12 +14,14 @@ This repository documents my hands on progress through Cybrary's cybersecurity a
 | [IP Addressing Basics](./ip-addressing-basics) | IP structure, subnetting, routing, ARP, Wireshark | Subnetting, IP classes, ARP analysis, `ip`, `netstat` | ✅ |
 | [Network Device Basics](./network-device-basics) | LAN/WAN setup, routing, firewall rules, DHCP | pfSense, static routes, NAT, DHCP, stateful firewall testing | ✅ |
 | [Cryptography Basics](./cryptography-basics) | Caesar Cipher, encryption/decryption, brute-force cryptanalysis | `python`, terminal-based encryption logic, key-based decryption | ✅ |
+| [Symmetric Cryptography](./symmetric-cryptography) | Secure key sharing, encryption/decryption, base64 encoding, OpenSSL usage | `openssl`, `base64`, `mail`, Linux terminal simulation | ✅ |
+
 
 
 ---
 
 ##  Total Lab Hours Logged
 
-**8 hours** of CEU/CPE accredited hands on labs completed.
+**9 hours** of CEU/CPE accredited hands on labs completed.
 
 ---
