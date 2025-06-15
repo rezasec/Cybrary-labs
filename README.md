@@ -13,12 +13,13 @@ This repository documents my hands on progress through Cybrary's cybersecurity a
 | [Network Reference Models](./network-reference-models) | OSI/TCP/IP models, Wireshark packet analysis | OSI/TCP/IP layers, protocol mapping, packet inspection | ✅ |
 | [IP Addressing Basics](./ip-addressing-basics) | IP structure, subnetting, routing, ARP, Wireshark | Subnetting, IP classes, ARP analysis, `ip`, `netstat` | ✅ |
 | [Network Device Basics](./network-device-basics) | LAN/WAN setup, routing, firewall rules, DHCP | pfSense, static routes, NAT, DHCP, stateful firewall testing | ✅ |
+| [Cryptography Basics](./cryptography-basics) | Caesar Cipher, encryption/decryption, brute-force cryptanalysis | `python`, terminal-based encryption logic, key-based decryption | ✅ |
 
 
 ---
 
 ##  Total Lab Hours Logged
 
-**7 hours** of CEU/CPE accredited hands on labs completed.
+**8 hours** of CEU/CPE accredited hands on labs completed.
 
 ---
