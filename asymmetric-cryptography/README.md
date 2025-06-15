@@ -1,18 +1,17 @@
 # Asymmetric Cryptography
 
-This lab demonstrates secure communication using public key cryptography in a Linux environment, simulating encryption and decryption between two users: `cybrary` and `sally`.
+This lab demonstrates how public key cryptography works using OpenSSL in a Linux environment. The process involved creating a key pair, publishing the public key, encrypting a message using another user’s public key, and decrypting a received message using a private key.
 
 ## Key Concepts
-- **Asymmetric cryptography** uses two keys:
-  - **Public key** --> encrypts 
-  - **Private key** --> decrypts 
-- ✅ Solves key distribution and management issues
-- ❌ Slower than symmetric encryption
-- Used in: HTTPS, email encryption, digital signatures, PKI
+- Uses two keys: public (encrypt) and private (decrypt)
+- Public keys can be shared. Private keys must remain secret
+- Solves key distribution and management issues
+- Common in HTTPS, email encryption, digital signatures
 
 ##  Lab Summary
+- Generated RSA key pair: `cybraryprivate.key` and `cybrarypublic.key`
+- Shared public key via simulated keyserver
+- Downloaded `sallypublic.key` and encrypted a message to Sally
+- Used base64 encoding to send message via mail
+- Switched to Sally user, decoded, and decrypted message using `sallyprivate.key`
 
-### 🔑Key Generation
-- Generated a private key with:
-  ```bash
-  openssl genpkey -algorithm rsa -out cybraryprivate.key
