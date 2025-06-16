@@ -1,6 +1,6 @@
 # Asymmetric Cryptography
 
-This lab demonstrates how public key cryptography works using OpenSSL in a Linux environment. The process involved creating a key pair, publishing the public key, encrypting a message using another user’s public key, and decrypting a received message using a private key.
+In this lab, I explored the basics of public key cryptography using OpenSSL in a Linux environment. I started by generating a key pair, then published the public key so others could use it. From there, I practiced encrypting a message with another user’s public key and decrypting incoming messages with my own private key.
 
 ## Key Concepts
 - Uses two keys: public (encrypt) and private (decrypt)
