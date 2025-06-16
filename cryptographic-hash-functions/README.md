@@ -17,7 +17,7 @@ This lab covers the fundamentals of hashing using OpenSSL in a Linux environment
   - Renaming/moving files doesn’t change the hash
 - Created a 1MB file using `/dev/urandom` and verified that even one extra space changed the hash completely
 
-## 🔧 Commands Used
+## Commands Used
 ```bash
 openssl dgst -md5 filename.txt
 openssl dgst -sha256 filename.txt
