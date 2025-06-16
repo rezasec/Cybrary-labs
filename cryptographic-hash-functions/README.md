@@ -1,6 +1,6 @@
 # Cryptographic Hash Functions
 
-This lab covers the fundamentals of hashing using OpenSSL in a Linux environment. It explores how hash values are generated, how they change with even minor file edits, and how hashes are used for verifying file integrity.
+In this lab, I explored the basics of hashing with OpenSSL in a Linux environment. I learned how hashes are generated, how tiny file changes affect them, and how they're used to check file integrity.
 
 ## Key Concepts
 - Hashing is a one-way function that creates a fixed length fingerprint of file content
