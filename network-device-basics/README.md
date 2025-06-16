@@ -1,6 +1,6 @@
 # Network Device Basics 
 
-This lab involved building and analyzing a small network using GNS3, including hosts, switches, a router, and a pfSense firewall. The focus was on understanding basic device roles, routing behavior, DHCP, and firewall traffic control.
+In this lab, I built and tested a simple network setup using GNS3. It included hosts, switches, a router, and a pfSense firewall. The main goal was to understand how each device works, how routing happens, how DHCP assigns IPs, and how firewalls control traffic.
 
 ---
 
