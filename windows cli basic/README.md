@@ -1,4 +1,4 @@
-## 🪟 Windows CLI Basics
+## Windows CLI Basics
 
 In this lab I covered essential command line skills for navigating and managing a Windows system using `cmd.exe`. It was split into three parts:
 
