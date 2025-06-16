@@ -17,6 +17,8 @@ This repository documents my hands on progress through Cybrary's cybersecurity a
 | [Symmetric Cryptography](./symmetric-cryptography) | Secure key sharing, encryption/decryption, base64 encoding, OpenSSL usage | `openssl`, `base64`, `mail`, Linux terminal simulation | ✅ |
 | [Asymmetric Cryptography](./asymmetric-cryptography) | Public/private key encryption, key publishing, OpenSSL RSA usage | `openssl`, `base64`, Linux keyserver simulation | ✅ |
 | [Cryptographic Hash Functions](./cryptographic-hash-functions) | Hashing, file integrity, content based comparison using MD5/SHA-256 | `openssl dgst`, `base64`, `sha256`, `md5sum` | ✅ |
+| [Windows CLI Basics](./windows-cli-basics) | Windows command line usage, file and system operations | Navigation, file management, process monitoring, user and group enumeration, networking (`netstat`, `ipconfig`) | ✅ |
+
 
 
 
@@ -24,6 +26,6 @@ This repository documents my hands on progress through Cybrary's cybersecurity a
 
 ##  Total Lab Hours Logged
 
-**12 hours** of CEU/CPE accredited hands on labs completed.
+**13 hours** of CEU/CPE accredited hands on labs completed.
 
 ---
