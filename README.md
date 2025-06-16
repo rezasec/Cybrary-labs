@@ -13,9 +13,10 @@ This repository documents my hands on progress through Cybrary's cybersecurity a
 | [Network Reference Models](./network-reference-models) | OSI/TCP/IP models, Wireshark packet analysis | OSI/TCP/IP layers, protocol mapping, packet inspection | ✅ |
 | [IP Addressing Basics](./ip-addressing-basics) | IP structure, subnetting, routing, ARP, Wireshark | Subnetting, IP classes, ARP analysis, `ip`, `netstat` | ✅ |
 | [Network Device Basics](./network-device-basics) | LAN/WAN setup, routing, firewall rules, DHCP | pfSense, static routes, NAT, DHCP, stateful firewall testing | ✅ |
-| [Cryptography Basics](./cryptography-basics) | Caesar Cipher, encryption/decryption, brute-force cryptanalysis | `python`, terminal-based encryption logic, key-based decryption | ✅ |
+| [Cryptography Basics](./cryptography-basics) | Caesar Cipher, encryption/decryption, brute force cryptanalysis | `python`, terminal based encryption logic, key based decryption | ✅ |
 | [Symmetric Cryptography](./symmetric-cryptography) | Secure key sharing, encryption/decryption, base64 encoding, OpenSSL usage | `openssl`, `base64`, `mail`, Linux terminal simulation | ✅ |
 | [Asymmetric Cryptography](./asymmetric-cryptography) | Public/private key encryption, key publishing, OpenSSL RSA usage | `openssl`, `base64`, Linux keyserver simulation | ✅ |
+| [Cryptographic Hash Functions](./cryptographic-hash-functions) | Hashing, file integrity, content based comparison using MD5/SHA-256 | `openssl dgst`, `base64`, `sha256`, `md5sum` | ✅ |
 
 
 
@@ -23,6 +24,6 @@ This repository documents my hands on progress through Cybrary's cybersecurity a
 
 ##  Total Lab Hours Logged
 
-**11 hours** of CEU/CPE accredited hands on labs completed.
+**12 hours** of CEU/CPE accredited hands on labs completed.
 
 ---
