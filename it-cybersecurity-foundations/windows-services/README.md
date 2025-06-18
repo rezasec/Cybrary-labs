@@ -46,17 +46,17 @@ In this lab I explored how Windows services function, how they can be managed us
 
 - Opened `services.msc`
 - Explored tabs:
-  - **General** – shows path to executable, startup type, and service status
-  - **Log On** – service credentials (usually `LocalSystem`)
-  - **Recovery** – what happens if a service fails
-  - **Dependencies** – which services must run before/after
+  - **General** = shows path to executable, startup type, and service status
+  - **Log On** = service credentials (usually `LocalSystem`)
+  - **Recovery** = what happens if a service fails
+  - **Dependencies** = which services must run before/after
 ---
 
 ##  Part 2: PowerShell & WMIC
 
 - `Get-Service` — listed all services
-- `Get-Service | Where-Object Status -EQ "Running"` — filtered running services
-- `wmic service get name,pathname` — showed executable paths
+- `Get-Service | Where-Object Status -EQ "Running"` = filtered running services
+- `wmic service get name,pathname` = showed executable paths
 - Used filters like:
   - `Started=True` or `Started=False`
   - Showed full info: `get name,displayname,started,processid,pathname`
