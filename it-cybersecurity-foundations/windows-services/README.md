@@ -70,9 +70,7 @@ In this lab I explored how Windows services function, how they can be managed us
 
 - Created test service:
   - Made: `C:\Program Files\my service`
-  - Copied legit EXE: `WindowsService1.exe`
   - Created service: `New-Service -Name MyService -BinaryPathName "C:\Program Files\my service\WindowsService1.exe"`
-  - Started service → Log confirmed normal behavior
 
 - Simulated attack:
   - Dropped `EvilWindowsService.exe` as `C:\Program.exe`
