@@ -1,4 +1,4 @@
-# 🔐 Cryptography Basics
+# Cryptography Basics
 
 This section focuses on how plaintext is transformed into ciphertext using ciphers and cryptographic keys.
 
