@@ -38,18 +38,7 @@ In this lab, I built and tested a simple network setup using GNS3. It included h
 
 - Demonstrated how a stateful firewall handles return traffic without explicit inbound rules
 - Highlighted the importance of routing awareness in multi-subnet environments
-- Simulated real-world misconfigurations 
+- Simulated real world misconfigurations 
 - Practiced proper use of allow rules and default deny strategies
-
----
-
-## Testing Summary
-
-| Test | Result |
-|------|--------|
-| Linux-1 to Web | Allowed (stateful return traffic) |
-| Web to Firewall WAN | Blocked (no inbound rule) |
-| Linux-2 to Firewall | Successful after static route and LAN rule edit |
-| Linux-2 to Web | Routed via firewall – successful |
 
 ---
