@@ -26,8 +26,18 @@ Each lab folder includes:
 
 ---
 
-##  Total Lab Hours Logged
+## SOC Analyst Path (Cybrary)
 
-**17 hours** of CEU/CPE accredited hands on labs completed.
+| Module | Description | Skills Practiced | Certificate |
+|--------|-------------|------------------|-------------|
+| [Defensive Security & Cyber Risk](./soc-analyst/defensive-security-and-cyber-risk) | Risk types, mitigation strategies, NIST CSF v1.1 | Cyber risk awareness, CSF functions, defensive strategy mapping | ✅ |
+
+---
+
+
+## Total Hours Logged
+
+-  **IT & Cybersecurity Foundations:** 17 hours 
+-  **SOC Analyst:** 1 hour 
 
 ---
