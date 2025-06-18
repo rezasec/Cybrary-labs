@@ -28,6 +28,6 @@ Each lab folder includes:
 
 ##  Total Lab Hours Logged
 
-**15 hours** of CEU/CPE accredited hands on labs completed.
+**17 hours** of CEU/CPE accredited hands on labs completed.
 
 ---
