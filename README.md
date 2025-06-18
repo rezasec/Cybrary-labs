@@ -21,6 +21,8 @@ Each lab folder includes:
 | [Cryptographic Hash Functions](./it-cybersecurity-foundations/cryptographic-hash-functions) | Hashing, file integrity, content based comparison using MD5/SHA-256 | `openssl dgst`, `base64`, `sha256`, `md5sum` | ✅ |
 | [Windows CLI Basics](./it-cybersecurity-foundations/windows-cli-basic) | Windows command line usage, file and system operations | Navigation, file management, process monitoring, user/group enumeration, networking (`netstat`, `ipconfig`) | ✅ |
 | [Windows File System Basics](./it-cybersecurity-foundations/windows-file-system-basics) | Windows directory layout, hidden folders, registry, event logs, NTFS ADS | `regedit`, `eventvwr`, `System32`, `AppData`, `hosts`, ADS via PowerShell | ✅ |
+| [Windows Services Basics](./it-cybersecurity-foundations/windows-services-basics) | Service types, SCM, PowerShell management, unquoted path exploit | `services.msc`, `Get-Service`, `New-Service`, `WMIC`, Event Viewer | ✅ |
+
 
 ---
 
