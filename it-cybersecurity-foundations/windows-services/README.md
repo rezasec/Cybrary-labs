@@ -54,7 +54,7 @@ In this lab I explored how Windows services function, how they can be managed us
 
 ##  Part 2: PowerShell & WMIC
 
-- `Get-Service` — listed all services
+- `Get-Service` = listed all services
 - `Get-Service | Where-Object Status -EQ "Running"` = filtered running services
 - `wmic service get name,pathname` = showed executable paths
 - Used filters like:
@@ -65,10 +65,6 @@ In this lab I explored how Windows services function, how they can be managed us
 
 ## Part 3: Unquoted Service Path Attack Demo
 
-### Setup
-```powershell
-cd C:\Users\cybrary\Desktop
-mkdir "C:\Program Files\my service"
-copy WindowsService1.exe "C:\Program Files\my service"
-New-Service -Name MyService -BinaryPathName "C:\Program Files\my service\WindowsService1.exe"
-Start-Service -Name MyService
+**Checked for unquoted service paths** using WMIC:
+   ```cmd
+   wmic service get name,pathname,startmode | findstr /i "auto" | findstr /i /v "c:\windows\\" | findstr /i /v """
