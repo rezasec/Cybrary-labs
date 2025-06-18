@@ -1,4 +1,4 @@
-# 🔐 Symmetric Cryptography
+# Symmetric Cryptography
 
 This lab demonstrates how symmetric encryption works in practice using a shared secret key between two users in a Linux environment.
 
