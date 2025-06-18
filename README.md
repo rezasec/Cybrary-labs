@@ -3,8 +3,8 @@
 This repository showcases my labs and progress through Cybrary’s cybersecurity career paths, with summaries, skills practiced, and certificates for each module.
 
 Each lab folder includes:
-- ✅ A lab summary with key skills practiced (`README.md`)
-- ✅ A certificate of completion (`certificate.pdf`)
+- ✅ A lab summary with key skills practiced
+- ✅ A certificate of completion
 
 ## 🧱 IT & Cybersecurity Foundations Labs
 
