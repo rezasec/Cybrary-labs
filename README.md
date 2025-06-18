@@ -6,7 +6,7 @@ Each lab folder includes:
 - ✅ A lab summary with key skills practiced
 - ✅ A certificate of completion
 
-## 🧱 IT & Cybersecurity Foundations Labs
+## IT & Cybersecurity Foundations Labs
 
 | Lab | Description | Skills Practiced | Certificate |
 |-----|-------------|------------------|-------------|
