@@ -65,6 +65,16 @@ In this lab I explored how Windows services function, how they can be managed us
 
 ## Part 3: Unquoted Service Path Attack Demo
 
-**Checked for unquoted service paths** using WMIC:
-   ```cmd
-   wmic service get name,pathname,startmode | findstr /i "auto" | findstr /i /v "c:\windows\\" | findstr /i /v """
+- Scanned for vulnerable services:
+  - `wmic service get name,pathname,startmode | findstr /i "auto" | findstr /i /v "c:\windows\\" | findstr /i /v """`
+
+- Created test service:
+  - Made: `C:\Program Files\my service`
+  - Copied legit EXE: `WindowsService1.exe`
+  - Created service: `New-Service -Name MyService -BinaryPathName "C:\Program Files\my service\WindowsService1.exe"`
+  - Started service → Log confirmed normal behavior
+
+- Simulated attack:
+  - Dropped `EvilWindowsService.exe` as `C:\Program.exe`
+  - Restarted MyService → Executed malicious binary
+  - Event Log showed new entry from the fake service
