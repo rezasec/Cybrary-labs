@@ -7,9 +7,9 @@ In this lab I explored how Windows services function, how they can be managed us
 ## What I Learned
 
 - How to view and manage Windows services using the Services GUI, PowerShell, and WMIC
-- Key differences between **service name** and **display name**
+- Key differences between service name and display name
 - What service properties like `Startup Type`, `Status`, and `Log On As` mean
-- How to find services with **unquoted paths** that may be vulnerable
+- How to find services with unquoted paths that may be vulnerable
 - How to simulate an unquoted path attack using `EvilWindowsService.exe`
 
 ---
