@@ -6,7 +6,7 @@ Each lab folder includes:
 - ✅ A lab summary with key skills practiced
 - ✅ A certificate of completion
 
-## IT & Cybersecurity Foundations Labs
+## IT & Cybersecurity Foundations 
 
 | Lab | Description | Skills Practiced | Certificate |
 |-----|-------------|------------------|-------------|
@@ -26,7 +26,7 @@ Each lab folder includes:
 
 ---
 
-## SOC Analyst Path
+## SOC Analyst 
 
 | Module | Description | Skills Practiced | Certificate |
 |--------|-------------|------------------|-------------|
