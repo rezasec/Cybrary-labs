@@ -31,6 +31,8 @@ Each lab folder includes:
 | Module | Description | Skills Practiced | Certificate |
 |--------|-------------|------------------|-------------|
 | [Defensive Security & Cyber Risk](./soc-analyst/defensive-security-and-cyber-risk) | Risk types, mitigation strategies, NIST CSF v1.1 | Cyber risk awareness, CSF functions, defensive strategy mapping | ✅ |
+| [Defensive Security Operations](./soc-analyst/defensive-security-operations) | SOC roles, monitoring process, alert logic | Alert adjudication, detection methods, tool mapping | ✅ |
+
 
 ---
 
@@ -38,6 +40,6 @@ Each lab folder includes:
 ## Total Hours Logged
 
 -  **IT & Cybersecurity Foundations:** 17 hours 
--  **SOC Analyst:** 1 hour 
+-  **SOC Analyst:** 3 hour 
 
 ---
