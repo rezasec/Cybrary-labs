@@ -2,7 +2,7 @@
 
 In this module I focused on the core operational aspects of defensive cybersecurity, particularly continuous monitoring within a Security Operations Center (SOC). It covered the roles, technologies, and alert handling logic SOC analysts use daily.
 
-## ✅ Key Topics Covered
+## Key Topics Covered
 
 - SOC roles: Analyst, Engineer, Manager, Responder, Threat Hunter, etc.
 - Foundational security tools: Firewall, AV, EDR, IDS/IPS, VPN, SIEM
