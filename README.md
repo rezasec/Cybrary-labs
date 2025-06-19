@@ -26,7 +26,7 @@ Each lab folder includes:
 
 ---
 
-## SOC Analyst Path (Cybrary)
+## SOC Analyst Path
 
 | Module | Description | Skills Practiced | Certificate |
 |--------|-------------|------------------|-------------|
