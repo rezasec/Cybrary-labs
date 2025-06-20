@@ -32,6 +32,7 @@ Each lab folder includes:
 |--------|-------------|------------------|-------------|
 | [Defensive Security & Cyber Risk](./soc-analyst/defensive-security-and-cyber-risk) | Risk types, mitigation strategies, NIST CSF v1.1 | Cyber risk awareness, CSF functions, defensive strategy mapping | ✅ |
 | [Defensive Security Operations](./soc-analyst/defensive-security-operations) | SOC roles, monitoring process, alert logic | Alert adjudication, detection methods, tool mapping | ✅ |
+| [Security Ticketing](./soc-analyst/security-ticketing) | Core ticketing concepts, TheHive platform walkthrough | Ticket lifecycle, resolution types, queue filtering | ✅ |
 
 
 ---
@@ -40,6 +41,6 @@ Each lab folder includes:
 ## Total Hours Logged
 
 -  **IT & Cybersecurity Foundations:** 17 hours 
--  **SOC Analyst:** 3 hour 
+-  **SOC Analyst:** 5 hour 
 
 ---
