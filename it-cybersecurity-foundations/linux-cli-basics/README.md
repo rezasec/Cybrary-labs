@@ -1,6 +1,6 @@
 #  Key Concepts and Commands Practiced
 
-This lab focused on essential Linux command line operations
+In this lab I focused on essential Linux command line operations
 
 ---
 
