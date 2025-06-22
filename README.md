@@ -22,7 +22,7 @@ Each lab folder includes:
 | [Windows CLI Basics](./it-cybersecurity-foundations/windows-cli-basic) | Windows command line usage, file and system operations | Navigation, file management, process monitoring, user/group enumeration, networking (`netstat`, `ipconfig`) |
 | [Windows File System Basics](./it-cybersecurity-foundations/windows-file-system-basics) | Windows directory layout, hidden folders, registry, event logs, NTFS ADS | `regedit`, `eventvwr`, `System32`, `AppData`, `hosts`, ADS via PowerShell |
 | [Windows Services Basics](./it-cybersecurity-foundations/windows-services) | Service types, SCM, PowerShell management, unquoted path exploit | `services.msc`, `Get-Service`, `New-Service`, `WMIC`, Event Viewer |
-| [Log Analysis Basics](./soc-analyst/log-analysis-basics) | Log profiling, command-line log inspection, VPN authentication analysis | `cat`, `head`, `tail`, `wc`, `egrep`, `file`, `ls`, log structure, IP/user correlation |
+| [Log Analysis Basics](./soc-analyst/log-analysis-basics) | Log profiling, command line log inspection, VPN authentication analysis | `cat`, `head`, `tail`, `wc`, `egrep`, `file`, `ls`, log structure, IP/user correlation |
 
 
 
