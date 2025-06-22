@@ -36,7 +36,7 @@ Each lab folder includes:
 | [Defensive Security Operations](./soc-analyst/defensive-security-operations) | SOC roles, monitoring process, alert logic | Alert adjudication, detection methods, tool mapping |
 | [Security Ticketing](./soc-analyst/security-ticketing) | Core ticketing concepts, TheHive platform walkthrough | Ticket lifecycle, resolution types, queue filtering |
 | [Log Analysis Basics](./soc-analyst/log-analysis-basics) | Log profiling, command line log inspection, VPN authentication analysis | `cat`, `head`, `tail`, `wc`, `egrep`, `file`, `ls`, log structure, IP/user correlation |
-| [SIEM Basics](./siem-basics) | Investigated log events and simulated brute force attacks using Wazuh | SIEM filtering, log analysis, Lucene queries, MITRE ATT&CK correlation |
+| [SIEM Basics](./soc-analyst/siem-basics) | Investigated log events and simulated brute force attacks using Wazuh | SIEM filtering, log analysis, Lucene queries, MITRE ATT&CK correlation |
 
 
 ---
