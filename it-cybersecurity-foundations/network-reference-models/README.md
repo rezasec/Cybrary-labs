@@ -17,7 +17,7 @@ In this lab I explored how data is transmitted across networks using the OSI and
 
 | OSI Layer | Example Protocols | What I Saw in Wireshark |
 |-----------|--------------------|--------------------------|
-| 7 - Application | HTTP | Request/Response content, flag `{CLAB-Practicum}` |
+| 7 - Application | HTTP | Request/Response content, |
 | 4 - Transport | TCP | Source/destination ports, sequence numbers |
 | 3 - Network | IPv4 | Source/destination IPs |
 | 2 - Data Link | IEEE 802.11 | MAC addresses, Beacon frames |
