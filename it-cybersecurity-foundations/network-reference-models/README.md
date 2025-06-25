@@ -6,7 +6,7 @@ In this lab I explored how data is transmitted across networks using the OSI and
 
 ##  Key Concepts Learned
 
- Structure and purpose of the OSI (7-layer) and TCP/IP (4-layer) models  
+ Structure and purpose of the OSI (7 layer) and TCP/IP (4 layer) models  
  How encapsulation adds headers/trailers at each layer  
  How Wireshark displays each protocol layer from Physical to Application  
  How to analyze key protocols and data fields in a real packet capture
@@ -30,6 +30,6 @@ In this lab I explored how data is transmitted across networks using the OSI and
 - Used **display filters** (`tcp`) to isolate meaningful packets  
 - Traced a full **HTTP request and response** across all layers  
 - Located the flag `{CLAB-Practicum}` inside an HTTP response  
-- Learned to differentiate between broadcast beacons (Layer 1-2 only) and actual traffic (Layer 3-7)
+- Learned to differentiate between broadcast beacons (Layer 1 & 2) and actual traffic (Layer 3 & 7)
 
 ---
